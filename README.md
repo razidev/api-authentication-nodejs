@@ -1,5 +1,5 @@
 # BASIC AUTHENTICATION
-api authentication ini merupakan proses langsung dari database, api ini basic dari semua aplikasi butuhkan mulai dari register, verifikasi email, login, dan forgot-password -> change-password(sebelum login) dan change-password(setelah login).
+api authentication ini merupakan proses langsung dari database, api ini basic dari semua aplikasi butuhkan mulai dari register, verifikasi email, login, forgot-password -> change-password(sebelum login) dan change-password(setelah login).
 
 api ini terhubung dengan [api-gateway-nodejs](https://github.com/razizs/api-gateway-nodejs) module utama yang digunakan pembuatan api ini adalah express, knex, redis, jsonwebtoken, dan bcrypt
 
