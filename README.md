@@ -16,6 +16,7 @@ download redis di situs resminya [redis](https://redis.io/) untuk cache
 
 
 *Struktur tabel user*
+
 name | type | default | extra
 ---- | ---- | ------- | -----
 id | int | none | auto_increment
