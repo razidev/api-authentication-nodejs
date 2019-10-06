@@ -15,8 +15,23 @@ buka config file di folder middleware untuk pasang settingan database anda. modu
 download redis di situs resminya [redis](https://redis.io/) untuk cache
 
 
+*Struktur tabel user*
+name | type | default | extra
+---- | ---- | ------- | -----
+id | int | none | auto_increment
+email | varchar | none | -
+passsword | varchar | none | - 
+active | tinyint | 1 | - 
+join_date | int | none | - 
+phone_number | varchar | none | - 
+full_name | varchar | none | - 
+username | varchar | none | - 
+logedin | int | null | - 
+logedout | int | null | - 
+age | int | none | - 
+
 ## USAGE
-pertama jalankan redis-servernya terlebih dahulu, lalu gunakan perintah dibawah untuk menjalankannya
+pertama jalankan redis-servernya terlebih dahulu dan server local anda untuk menjalankan database mysql, lalu gunakan perintah dibawah untuk menjalankannya
 ```bash 
 npm start
 ``` 
